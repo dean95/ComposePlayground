@@ -1,4 +1,4 @@
-package com.dean.composeplayground.main.utils
+package com.dean.composeplayground.utils
 
 import android.app.Activity
 import android.content.Context

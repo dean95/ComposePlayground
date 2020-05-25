@@ -15,7 +15,7 @@ import androidx.ui.unit.ipx
 import androidx.ui.unit.sp
 import com.dean.composeplayground.R
 import com.dean.composeplayground.main.MainViewModel
-import com.dean.composeplayground.main.utils.hideKeyboard
+import com.dean.composeplayground.utils.hideKeyboard
 
 @Composable
 fun CategorySearchView(viewModel: MainViewModel) {

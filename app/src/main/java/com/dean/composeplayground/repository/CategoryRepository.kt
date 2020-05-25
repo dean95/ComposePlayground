@@ -1,7 +1,7 @@
 package com.dean.composeplayground.repository
 
 import com.dean.composeplayground.R
-import com.dean.composeplayground.main.model.Category
+import com.dean.composeplayground.model.Category
 
 class CategoryRepository {
 

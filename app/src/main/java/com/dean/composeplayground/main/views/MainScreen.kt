@@ -14,7 +14,7 @@ import androidx.ui.text.TextStyle
 import androidx.ui.unit.dp
 import androidx.ui.unit.sp
 import com.dean.composeplayground.main.MainViewModel
-import com.dean.composeplayground.main.model.MainScreenState
+import com.dean.composeplayground.model.MainScreenState
 
 @Composable
 fun MainScreen(viewModel: MainViewModel) {
@@ -31,7 +31,7 @@ fun MainScreen(viewModel: MainViewModel) {
             Spacer(modifier = Modifier.preferredHeight(16.dp))
             CategorySearchView(viewModel)
             Spacer(modifier = Modifier.preferredHeight(8.dp))
-            CategoryList(categories = mainScreenState.categories)
+            CategoryList(categories = mainScreenState.categories, viewModel = viewModel)
         }
     }
 }

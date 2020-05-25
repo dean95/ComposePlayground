@@ -1,4 +1,4 @@
-package com.dean.composeplayground.main.model
+package com.dean.composeplayground.model
 
 data class MainScreenState(
     val title: String,

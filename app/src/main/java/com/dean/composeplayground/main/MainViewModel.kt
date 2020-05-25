@@ -3,7 +3,7 @@ package com.dean.composeplayground.main
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.dean.composeplayground.main.model.MainScreenState
+import com.dean.composeplayground.model.MainScreenState
 import com.dean.composeplayground.repository.CategoryRepository
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Single
